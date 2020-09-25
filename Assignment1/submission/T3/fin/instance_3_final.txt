@@ -1,0 +1,10 @@
+Avg for T3/0.005_3_epsilon_greedy.txt file is 1857.72
+Avg for T3/0.01_3_epsilon_greedy.txt file is 1203.18
+Avg for T3/0.004_3_epsilon_greedy.txt file is 2581.8
+Avg for T3/0.009_3_epsilon_greedy.txt file is 1322.64
+Avg for T3/0.007_3_epsilon_greedy.txt file is 1493.38
+Avg for T3/0.006_3_epsilon_greedy.txt file is 2005.96
+Avg for T3/0.003_3_epsilon_greedy.txt file is 2543.5
+Avg for T3/0.008_3_epsilon_greedy.txt file is 1439.7
+Avg for T3/0.001_3_epsilon_greedy.txt file is 6424.7
+Avg for T3/0.002_3_epsilon_greedy.txt file is 3575.6
