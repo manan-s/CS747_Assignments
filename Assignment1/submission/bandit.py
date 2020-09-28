@@ -40,36 +40,26 @@ def main():
     filename, instance, algorithm, seed, epsilon, horizon = parseargs()
 
     if (algorithm == 'epsilon-greedy'):
-        #for horizon in [100, 400, 1600, 6400, 25600, 102400]:
-        #for seed in range(50):
         reward = epsilon_greedy(instance, epsilon, horizon, seed)
         regret = horizon*max(instance) - reward
         print('{}, {}, {}, {}, {}, {}'.format(filename, algorithm, seed, epsilon, horizon, regret))
     
     elif (algorithm == 'ucb'):
-        #for horizon in [100, 400, 1600, 6400, 25600, 102400]:
-        #for seed in range(50):
         reward = UCB(instance, horizon, seed)
         regret = horizon*max(instance) - reward
         print('{}, {}, {}, {}, {}, {}'.format(filename, algorithm, seed, epsilon, horizon, regret))
     
     elif (algorithm == 'kl-ucb'):
-        #for horizon in [100, 400, 1600, 6400, 25600, 102400]:
-        #for seed in range(50):
         reward = KL_UCB(instance, horizon, seed)
         regret = horizon*max(instance) - reward
         print('{}, {}, {}, {}, {}, {}'.format(filename, algorithm, seed, epsilon, horizon, regret))
 
     elif (algorithm == 'thompson-sampling'):
-        #for horizon in [100, 400, 1600, 6400, 25600, 102400]:
-        #for seed in range(50):
         reward = ThomsonSampling(instance, horizon, seed)
         regret = horizon*max(instance) - reward
         print('{}, {}, {}, {}, {}, {}'.format(filename, algorithm, seed, epsilon, horizon, regret))
     
     elif (algorithm == 'thompson-sampling-with-hint'):
-        #for horizon in [100, 400, 1600, 6400, 25600, 102400]:
-        #for seed in range(50):
         reward = ThomsonHint(instance, horizon, seed)
         regret = horizon*max(instance) - reward
         print('{}, {}, {}, {}, {}, {}'.format(filename, algorithm, seed, epsilon, horizon, regret))
