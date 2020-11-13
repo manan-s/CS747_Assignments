@@ -1,0 +1,7 @@
+https://ai.stackexchange.com/questions/10798/expected-sarsa-vs-sarsa-in-rl-an-introduction
+
+Sutton and Barto (2018)
+
+Numpy Documentations
+
+CS747 2020 offering
